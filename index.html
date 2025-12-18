@@ -12,88 +12,78 @@
 
 <body data-theme="light">
 
-<!-- HEADER / HERO -->
+<!-- HEADER -->
 <header class="hero-section" id="hero">
 
-  <!-- HERO BACKGROUND LAYERS -->
-  <div class="hero-bg bg1"></div>
-  <div class="hero-bg bg2"></div>
-
-<nav class="navbar navbar-expand-lg fixed-top navbar-dark">
-  <div class="container">
-
-    <a class="navbar-brand d-flex align-items-center" href="#">
-      <img src="logo.png" class="logo me-2">
-      <span class="fw-bold">Om Muruga Construction</span>
-    </a>
-
-    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="menu">
-      <ul class="navbar-nav ms-auto align-items-center">
-        <li class="nav-item"><a class="nav-link active" href="#hero">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="#about-company">Company</a></li>
-        <li class="nav-item"><a class="nav-link" href="#about-owner">Owner</a></li>
-        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
-        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-        <li class="nav-item ms-3">
-          <button class="btn btn-sm btn-outline-light" onclick="toggleTheme()">
-            <i class="bi bi-moon-fill"></i>
-          </button>
-        </li>
-      </ul>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="logo.png" class="logo me-2">
+        <span class="fw-bold">Om Muruga Construction</span>
+      </a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto align-items-center">
+          <li class="nav-item"><a class="nav-link active" href="#hero">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about-company">Company</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about-owner">Owner</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <li class="nav-item ms-3">
+            <button class="btn btn-sm btn-outline-light theme-toggle" onclick="toggleTheme()" title="Toggle Dark / Light Mode">
+              <i class="bi bi-moon-fill"></i>
+            </button>
+          </li>
+        </ul>
+      </div>
     </div>
+  </nav>
 
+  <!-- HERO CONTENT -->
+  <div class="hero-content text-center text-white">
+    <h1 class="fw-bold">We Build Your Dream</h1>
+    <p class="lead">Building Quality with Economy</p>
+    <a href="#contact" class="btn btn-warning mt-3">Let’s Connect</a>
   </div>
-</nav>
 
-<div class="hero-content text-center text-white">
-  <h1 class="fw-bold">We Build Your Dream</h1>
-  <p class="lead">Building Quality with Economy</p>
-  <a href="#contact" class="btn btn-warning mt-3">Let’s Connect</a>
-</div>
+  <!-- BRAND QUOTE OVERLAY -->
+  <blockquote class="brand-quote">
+    <strong>“We Build Your Dream”</strong>
+  </blockquote>
+
 </header>
 
 <!-- ABOUT COMPANY -->
 <section id="about-company" class="section">
   <div class="container">
     <h2 class="section-title">About Om Muruga Construction</h2>
-
     <p>
       Om Muruga Construction Company was established in 2004. The company was
       founded by Mr. A. Muthuraj and promoted by Eng. Muthukumar, B.E,
       a first-generation entrepreneur with over two decades of experience
       in construction and real estate development across Tamil Nadu.
     </p>
-
     <p>
       With the mission of delivering globally comparable quality residential
       and commercial projects, the company follows the motto
       <strong>“Building Quality with Economy.”</strong>
     </p>
-
-    <!-- QUOTE -->
-    <blockquote class="brand-quote">
-      <strong>“We Build Your Dream”</strong>
-    </blockquote>
-
     <p>
       Om Muruga Construction is a professionally managed organization known
       for innovative design, superior construction standards, strong resource
       management, and customer satisfaction. Our commitment to quality and
       reliability ensures lasting value in every project we undertake.
     </p>
-
-   <p>
-  Our comprehensive services include <b>planning and designing</b>, <b>3D elevation and plan approvals</b>,
-   <b>residential and commercial construction</b>, <b>structural design</b>, <b>electrical and plumbing works</b>, 
-   <b>false ceiling</b>, <b>aluminum panels</b>, <b>MS and SS works</b>, <b>roofing sheets</b>, <b>water proofing</b>
-  <b> and town planning consultancy</b>.
-</p>
-
+    <p>
+      Our comprehensive services include <b>planning and designing</b>, <b>3D elevation and plan approvals</b>,
+      <b>residential and commercial construction</b>, <b>structural design</b>, <b>electrical and plumbing works</b>, 
+      <b>false ceiling</b>, <b>aluminum panels</b>, <b>MS and SS works</b>, <b>roofing sheets</b>, <b>water proofing</b>
+      <b> and town planning consultancy</b>.
+    </p>
   </div>
 </section>
 
@@ -101,16 +91,10 @@
 <section id="about-owner" class="section bg-light">
   <div class="container">
     <h2 class="section-title">About the Owner</h2>
-
     <div class="row align-items-center gy-4">
-
-      <!-- OWNER IMAGE -->
       <div class="col-md-4 text-center">
-        <img src="Owner.jpeg" alt="Owner"
-          class="owner-img img-fluid">
+        <img src="Owner.jpeg" alt="Owner" class="owner-img img-fluid">
       </div>
-
-      <!-- OWNER CONTENT -->
       <div class="col-md-8">
         <p>
           Mr. Muthukumar, B.E is a qualified Civil Engineer and the promoter of
@@ -120,7 +104,6 @@
           <strong>8+ years of international experience</strong>
           as a Civil Engineer.
         </p>
-
         <p>
           His global exposure has strengthened his expertise in modern
           construction methodologies, international quality standards,
@@ -128,7 +111,6 @@
           enables the company to deliver projects that are durable,
           cost-effective, and built to global benchmarks.
         </p>
-
         <p>
           Guided by strong professional ethics and a customer-centric
           approach, Mr. Muthukumar ensures that every project reflects
@@ -136,85 +118,63 @@
           <strong>“We Build Your Dream.”</strong>
         </p>
       </div>
-
     </div>
   </div>
 </section>
 
 <!-- Services -->
 <section id="services" class="section">
-<div class="container">
-<h2 class="section-title">Our Services</h2>
-
-<div class="row g-4">
-  <div class="col-md-4"><div class="service-card">Residential Construction</div></div>
-  <div class="col-md-4"><div class="service-card">Commercial Construction</div></div>
-  <div class="col-md-4"><div class="service-card">Interior & Renovation</div></div>
-  <div class="col-md-4"><div class="service-card">Planning & Designing</div></div>
-  <div class="col-md-4"><div class="service-card">3D Elevation & Plan Approval</div></div>
-  <div class="col-md-4"><div class="service-card">Structural, Electrical & Plumbing</div></div>
-</div>
+  <div class="container">
+    <h2 class="section-title">Our Services</h2>
+    <div class="row g-4">
+      <div class="col-md-4"><div class="service-card">Residential Construction</div></div>
+      <div class="col-md-4"><div class="service-card">Commercial Construction</div></div>
+      <div class="col-md-4"><div class="service-card">Interior & Renovation</div></div>
+      <div class="col-md-4"><div class="service-card">Planning & Designing</div></div>
+      <div class="col-md-4"><div class="service-card">3D Elevation & Plan Approval</div></div>
+      <div class="col-md-4"><div class="service-card">Structural, Electrical & Plumbing</div></div>
+    </div>
+  </div>
 </section>
 
 <!-- PROJECTS -->
 <section id="projects" class="section">
   <div class="container">
     <h2 class="section-title">Our Projects</h2>
-
     <div class="project-slider-wrapper">
-
       <button class="slider-btn left" onclick="prevSlide()">
         <i class="bi bi-chevron-left"></i>
       </button>
-
       <div class="project-slider">
-        <img id="projectImg1" class="active">
-        <img id="projectImg2">
+        <img id="projectImage" src="img4 (1).jpeg" alt="Project Image">
       </div>
-
       <button class="slider-btn right" onclick="nextSlide()">
         <i class="bi bi-chevron-right"></i>
       </button>
-
     </div>
   </div>
 </section>
 
 <!-- CONTACT -->
 <section id="contact" class="section bg-light text-center">
-<h2 class="section-title">Contact Us</h2>
-<p class="mb-3">
-  <i class="bi bi-geo-alt-fill me-2"></i>
-  18/1, First Floor, Chidambaram Nagar,<br>
-  Karaikudi – 630001
-</p>
-
-<div class="contact-icons">
-  
-  <a href="tel:9894552886" title="Call">
-    <i class="bi bi-telephone-fill"></i>
-  </a>
-
-  <a href="mailto:omctamilnadu@gmail.com" title="Email">
-    <i class="bi bi-envelope-fill"></i>
-  </a>
-
-  <a href="https://wa.me/919894552886" target="_blank" title="WhatsApp">
-    <i class="bi bi-whatsapp"></i>
-  </a>
-
-  <a href="https://www.google.com/maps/search/?api=1&query=18/1+First+Floor+Chidambaram+Nagar+Karaikudi+623001"
-     target="_blank"
-     title="Open Location">
-    <i class="bi bi-geo-alt-fill"></i>
-  </a>
-</div>
-
+  <h2 class="section-title">Contact Us</h2>
+  <p class="mb-3">
+    <i class="bi bi-geo-alt-fill me-2"></i>
+    18/1, First Floor, Chidambaram Nagar,<br>
+    Karaikudi – 630001
+  </p>
+  <div class="contact-icons">
+    <a href="tel:9894552886" title="Call"><i class="bi bi-telephone-fill"></i></a>
+    <a href="mailto:omctamilnadu@gmail.com" title="Email"><i class="bi bi-envelope-fill"></i></a>
+    <a href="https://wa.me/919894552886" target="_blank" title="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+    <a href="https://www.google.com/maps/search/?api=1&query=18/1+First+Floor+Chidambaram+Nagar+Karaikudi+623001"
+       target="_blank" title="Open Location"><i class="bi bi-geo-alt-fill"></i></a>
+  </div>
 </section>
 
 <!-- FOOTER -->
 <footer class="footer">
-<p>© 2025 Om Muruga Construction. All Rights Reserved.</p>
+  <p>© 2025 Om Muruga Construction. All Rights Reserved.</p>
 </footer>
 
 <!-- FLOATING SOCIAL ICONS -->
